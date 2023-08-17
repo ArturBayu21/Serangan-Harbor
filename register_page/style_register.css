@@ -1,0 +1,31 @@
+.section1 {
+    display: flex;
+    background-color: #0dc7ec;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.square {
+    background-color: white;
+    width: 1000px;
+    padding: 80px 100px;
+    border-radius: 20px;
+}
+
+.reservation-button {
+    display: block;
+    margin-top: 50px;
+}
+
+@media (max-width: 1000px){
+    .square{
+        width: 100%;
+        border-radius: 0;
+    }
+}
+@media (max-width: 670px){
+    .square{
+        padding: 80px 20px;
+    }
+}

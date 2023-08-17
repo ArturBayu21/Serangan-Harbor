@@ -1,0 +1,22 @@
+body {
+    background-color: #0dc7ec;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.container {
+    max-width: 850px;
+    background-color: white;
+    padding: 70px 50px;
+    border-radius: 20px;
+}
